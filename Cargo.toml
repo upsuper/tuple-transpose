@@ -10,4 +10,7 @@ repository = "https://github.com/upsuper/tuple-transpose"
 license = "MIT"
 readme = "README.md"
 
+[badges]
+azure-devops = { project = "upsuper/upsuper", pipeline = "tuple-transpose", build = "3" }
+
 [dependencies]

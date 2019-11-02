@@ -1,5 +1,8 @@
 # tuple-transpose
 
+[![Build Status](https://dev.azure.com/upsuper/upsuper/_apis/build/status/tuple-transpose?branchName=master)](https://dev.azure.com/upsuper/upsuper/_build/latest?definitionId=3&branchName=master)
+[![Crates.io](https://img.shields.io/crates/v/tuple-transpose.svg)](https://crates.io/crates/tuple-transpose)
+
 Transpose a tuple of results or options to result or option of tuple.
 
 ## Examples
