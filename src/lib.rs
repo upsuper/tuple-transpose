@@ -1,4 +1,5 @@
 #![no_std]
+#![rustfmt::skip]
 
 pub trait TupleTranspose {
     type Output;
