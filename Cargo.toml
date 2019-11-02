@@ -1,0 +1,13 @@
+[package]
+name = "tuple-transpose"
+version = "0.1.0"
+authors = ["Xidorn Quan <me@upsuper.org>"]
+edition = "2018"
+description = "Transpose tuple of results and options to result and option of tuple"
+categories = ["rust-patterns", "no-std"]
+keywords = ["tuple", "transpose", "result", "option"]
+repository = "https://github.com/upsuper/tuple-transpose"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
