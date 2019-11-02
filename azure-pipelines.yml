@@ -1,0 +1,19 @@
+stages:
+  - template: azure/stages.yml@templates
+    parameters:
+      minrust: 1.32.0
+
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: crate-ci/azure-pipelines
+      endpoint: upsuper
+
+schedules:
+  - cron: "37 2 * * 0"
+    displayName: Weekly build
+    branches:
+      includes:
+        - master
+    always: true
